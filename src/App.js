@@ -4,25 +4,25 @@ import './App.css';
 
 export default function App() {
 
-  const wave = () => {
+  // const wave = () => {
     
-  }
+  // }
   
   return (
     <div className="mainContainer">
 
       <div className="dataContainer">
         <div className="header">
-        👋 Hey there!
+        👋 Howdy.
         </div>
 
         <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+        Welcome to Justin's Web3 Guestbook! 
         </div>
 
-        <button className="waveButton" onClick={wave}>
+        {/* <button className="waveButton" onClick={wave}>
           Wave at Me
-        </button>
+        </button> */}
       </div>
     </div>
   );
